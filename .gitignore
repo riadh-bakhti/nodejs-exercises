@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Secrets / credentials — never commit these
+.env
+.env.*
+!.env.example
+
+# Generated output
+welcome.txt
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Unrelated project kept in this folder
+comptaflow-spec/
